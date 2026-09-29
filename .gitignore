@@ -1,0 +1,33 @@
+# Microsoft / Minecraft authentication
+auth/
+.auth/
+cache/
+.cache/
+nmp-cache/
+.minecraft/
+
+# Environment / secrets
+.env
+.env.*
+*.token
+*.key
+*.pem
+credentials*
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# Backups
+*.backup
+*.backup-*
+*.backup_before_*
+
+# Runtime player data
+data/*.json
+
+# macOS
+.DS_Store
